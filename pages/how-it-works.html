@@ -29,7 +29,29 @@
   </header>
   <main id="main">
     <h1>How structure prediction works</h1>
-    <!-- TODO(full-stack): page content -->
+    <p class="lead">You give the model a description of the molecules. It gives back a 3D structure. Here is the idea without the maths.</p>
+    <section aria-labelledby="input">
+      <h2 id="input">What goes in</h2>
+      <p>The input is the sequence of each chain, such as a protein's amino acids, and optionally other molecules that should be part of the complex, such as a small drug-like molecule. Models in this family also look at related sequences from other species, which hint at which parts of the protein change together.</p>
+    </section>
+    <section aria-labelledby="diffusion">
+      <h2 id="diffusion">Building a shape by removing noise</h2>
+      <p>Boltz is a diffusion-style model, the same broad family of methods used by many AI image generators. Imagine starting with the atoms scattered randomly, like static on a television. The model then makes many small steps, each time nudging the atoms toward positions that make physical and biological sense. After enough steps, a clean structure emerges.</p>
+      <ol>
+        <li>Start with the sequence and any extra molecules.</li>
+        <li>Place the atoms as random noise.</li>
+        <li>Repeatedly let the trained network adjust the atom positions.</li>
+        <li>Output the final 3D coordinates.</li>
+      </ol>
+    </section>
+    <section aria-labelledby="learned">
+      <h2 id="learned">How it learned</h2>
+      <p>The model was trained on large collections of experimentally determined structures, such as those in the public Protein Data Bank. It learns patterns that link sequences to shapes, then applies them to molecules it has never seen.</p>
+    </section>
+    <section aria-labelledby="limits">
+      <h2 id="limits">Predictions are not proof</h2>
+      <p>A predicted structure is a well-informed estimate. Some predictions are more reliable than others, and scientists still check important results in the lab.</p>
+    </section>
   </main>
   <footer class="site-footer">
     <p>An independent explainer built by the Orchestrate Solutions demo team. Not affiliated with MIT or the Boltz authors.</p>
