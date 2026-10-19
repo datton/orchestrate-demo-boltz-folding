@@ -1,0 +1,6 @@
+/* Layout, header, nav, footer: owned by UI/UX */
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: 0; }
+.site-header ul { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space); padding: 0; }
+main { max-width: 48rem; margin: 0 auto; padding: var(--space); }
+.nav-toggle { display: none; }
