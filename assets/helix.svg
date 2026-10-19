@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" role="img" aria-labelledby="t"><title id="t">An alpha helix: two twisting strands joined by rungs</title>
+<g stroke="#8a9bbd" stroke-width="3" stroke-linecap="round">
+<path d="M52 40H148M38 80H162M52 120H148M100 140V140M52 200H148M38 240H162M52 280H148"/></g>
+<path d="M52 20C52 60 148 60 148 100S52 140 52 180 148 220 148 260 52 300 52 320" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+<path d="M148 20C148 60 52 60 52 100S148 140 148 180 52 220 52 260 148 300 148 320" fill="none" stroke="#0b6f6a" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+<g fill="#b93d0c"><circle cx="100" cy="60" r="7"/><circle cx="100" cy="140" r="7"/><circle cx="100" cy="220" r="7"/><circle cx="100" cy="300" r="7"/></g></svg>

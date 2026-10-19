@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t"><title id="t">A chain of amino acids folding into a compact shape</title>
+<path d="M30 250C30 150 110 150 110 230S190 300 200 200 130 90 190 70 300 90 280 160 360 190 370 100" fill="none" stroke="#c9d4e6" stroke-width="14" stroke-linecap="round"/>
+<path d="M30 250C30 150 110 150 110 230S190 300 200 200 130 90 190 70 300 90 280 160 360 190 370 100" fill="none" stroke="#1d4ed8" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 22"/>
+<g><circle cx="30" cy="250" r="11" fill="#b93d0c"/><circle cx="110" cy="230" r="9" fill="#0b6f6a"/><circle cx="200" cy="200" r="9" fill="#1d4ed8"/><circle cx="190" cy="70" r="9" fill="#0b6f6a"/><circle cx="280" cy="160" r="9" fill="#1d4ed8"/><circle cx="370" cy="100" r="11" fill="#b93d0c"/></g>
+<path d="M30 250L110 230M200 200L280 160" stroke="#8a5a00" stroke-width="2" stroke-dasharray="5 5" fill="none"/></svg>
