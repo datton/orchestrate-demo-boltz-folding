@@ -29,7 +29,31 @@
   </header>
   <main id="main">
     <h1>Boltz-1 and Boltz-2</h1>
-    <!-- TODO(full-stack): page content -->
+    <p class="lead">Boltz is a family of open models from MIT researchers. Here is what each one does.</p>
+    <section aria-labelledby="who">
+      <h2 id="who">Who makes Boltz</h2>
+      <p>Boltz was developed by researchers at MIT, associated with the MIT Jameel Clinic for Machine Learning in Health and the Computer Science and Artificial Intelligence Laboratory (CSAIL). It is released as open source, so anyone can read the code and use the models.</p>
+    </section>
+    <section aria-labelledby="b1">
+      <h2 id="b1">Boltz-1</h2>
+      <p>Released in late 2024, Boltz-1 predicts the 3D structure of biomolecular complexes: proteins, and also how they sit together with other proteins, DNA, RNA and small molecules. It was presented as an openly available model reaching accuracy close to AlphaFold 3, whose code and weights were not openly released at first.</p>
+    </section>
+    <section aria-labelledby="b2">
+      <h2 id="b2">Boltz-2</h2>
+      <p>Released in 2025, Boltz-2 goes a step further. Besides predicting structure, it estimates binding affinity, which is how tightly a small molecule (such as a drug candidate) sticks to a protein. Predicting affinity is valuable in drug discovery, where physics-based simulations are accurate but slow. Boltz-2 was developed with collaborators including the company Recursion.</p>
+    </section>
+    <section aria-labelledby="compare">
+      <h2 id="compare">At a glance</h2>
+      <table>
+        <caption>Boltz-1 compared with Boltz-2</caption>
+        <thead><tr><th scope="col">Model</th><th scope="col">Released</th><th scope="col">Main job</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Boltz-1</th><td>2024</td><td>Predict the 3D structure of biomolecular complexes</td></tr>
+          <tr><th scope="row">Boltz-2</th><td>2025</td><td>Predict structure and estimate binding affinity</td></tr>
+        </tbody>
+      </table>
+      <p>For exact figures and the latest versions, see the official project pages listed under <a href="glossary.html#more">Learn more</a>.</p>
+    </section>
   </main>
   <footer class="site-footer">
     <p>An independent explainer built by the Orchestrate Solutions demo team. Not affiliated with MIT or the Boltz authors.</p>
