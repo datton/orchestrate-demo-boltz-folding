@@ -29,7 +29,30 @@
   </header>
   <main id="main">
     <h1>What is protein folding?</h1>
-    <!-- TODO(full-stack): page content -->
+    <p class="lead">A protein starts life as a long chain. To work, it has to curl up into a precise shape.</p>
+    <section aria-labelledby="chain">
+      <h2 id="chain">From a chain to a machine</h2>
+      <p>Cells build proteins by joining small units called amino acids into a chain. There are 20 standard amino acids, and the order they appear in is the protein's sequence. That order is written in the cell's genes.</p>
+      <p>The chain does not stay stretched out. It folds into a three-dimensional shape, and that shape lets the protein do its job: speeding up a chemical reaction, carrying oxygen, sending a signal or defending the body.</p>
+    </section>
+    <section aria-labelledby="try">
+      <h2 id="try">Try it: fold the chain</h2>
+      <p>This is a simplified drawing, not a real protein. Press the button to switch between a loose chain and a folded one.</p>
+      <figure>
+        <svg id="fold-demo" viewBox="0 0 320 140" role="img" aria-labelledby="fold-title">
+          <title id="fold-title">A chain of beads, shown either stretched out or folded into a compact shape</title>
+          <polyline id="fold-line" fill="none" stroke="#2f5bd8" stroke-width="3" points=""/>
+          <g id="fold-beads" fill="#1a1a2e"></g>
+        </svg>
+        <figcaption id="fold-caption">The chain is stretched out.</figcaption>
+      </figure>
+      <button type="button" id="fold-toggle" aria-pressed="false">Fold the chain</button>
+    </section>
+    <section aria-labelledby="problem">
+      <h2 id="problem">The folding problem</h2>
+      <p>For decades, scientists asked: given only the sequence, can you predict the final shape? Experiments such as X-ray crystallography and cryo-electron microscopy can reveal shapes, but they are slow and costly. Computers that could predict a shape from the sequence would save enormous effort.</p>
+      <p>A famous observation, often called Levinthal's paradox, notes that a chain has far too many possible shapes to try them all, yet real proteins fold quickly. This is part of why the problem was so hard. In 2020, DeepMind's AlphaFold 2 showed that deep learning could solve much of it, and its creators shared the 2024 Nobel Prize in Chemistry with David Baker. Boltz builds on this line of work.</p>
+    </section>
   </main>
   <footer class="site-footer">
     <p>An independent explainer built by the Orchestrate Solutions demo team. Not affiliated with MIT or the Boltz authors.</p>
