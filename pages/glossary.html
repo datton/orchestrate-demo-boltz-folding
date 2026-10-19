@@ -29,7 +29,36 @@
   </header>
   <main id="main">
     <h1>Glossary and learn more</h1>
-    <!-- TODO(full-stack): page content -->
+    <p class="lead">Short definitions of the words used on this site, plus where to read more.</p>
+    <section aria-labelledby="terms">
+      <h2 id="terms">Glossary</h2>
+      <label for="glossary-filter">Filter terms</label>
+      <input type="search" id="glossary-filter" autocomplete="off">
+      <p id="glossary-status" role="status"></p>
+      <dl id="glossary-list">
+        <div class="term"><dt>Amino acid</dt><dd>One of the 20 standard building blocks that are joined in a chain to make a protein.</dd></div>
+        <div class="term"><dt>Protein</dt><dd>A large molecule made of a folded chain of amino acids that does a job in a cell.</dd></div>
+        <div class="term"><dt>Sequence</dt><dd>The order of amino acids in a protein chain.</dd></div>
+        <div class="term"><dt>Folding</dt><dd>The process by which a protein chain curls into its working 3D shape.</dd></div>
+        <div class="term"><dt>Structure</dt><dd>The 3D arrangement of a molecule's atoms.</dd></div>
+        <div class="term"><dt>Binding affinity</dt><dd>How strongly one molecule, such as a drug candidate, sticks to another, such as a protein.</dd></div>
+        <div class="term"><dt>Ligand</dt><dd>A small molecule that binds to a protein.</dd></div>
+        <div class="term"><dt>Diffusion model</dt><dd>A type of AI that builds an output by gradually removing noise, step by step.</dd></div>
+        <div class="term"><dt>Protein Data Bank</dt><dd>A public archive of experimentally determined molecular structures.</dd></div>
+        <div class="term"><dt>AlphaFold</dt><dd>A series of AI systems from DeepMind that predict protein structures.</dd></div>
+        <div class="term"><dt>Open source</dt><dd>Software whose code is shared so that anyone can read, use and build on it.</dd></div>
+        <div class="term"><dt>CSAIL</dt><dd>The Computer Science and Artificial Intelligence Laboratory at MIT.</dd></div>
+      </dl>
+    </section>
+    <section aria-labelledby="more">
+      <h2 id="more">Learn more</h2>
+      <p>This site is an independent summary. For authoritative details, search for these official sources:</p>
+      <ul>
+        <li>The Boltz project on GitHub (search for "jwohlwend/boltz").</li>
+        <li>The Boltz-1 and Boltz-2 papers, posted on bioRxiv by the MIT authors.</li>
+        <li>The Protein Data Bank (rcsb.org).</li>
+      </ul>
+    </section>
   </main>
   <footer class="site-footer">
     <p>An independent explainer built by the Orchestrate Solutions demo team. Not affiliated with MIT or the Boltz authors.</p>
